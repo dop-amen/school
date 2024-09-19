@@ -1,0 +1,470 @@
+/* common css start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* common css end */
+
+/* navbar css start */
+
+#navbar{
+    background: #06091A;
+    
+}
+#navbar a{
+    color: #fff;
+}
+.logo img{
+    width: 120px;
+    margin-top: 30px;
+}
+#btn{
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    line-height: 95px;
+    margin-left: -45px;
+    color: #fff;
+}
+.menu {
+    justify-content: space-between;
+    margin-left: -30px;
+}
+.menu a{
+    font-size: 20px;
+    line-height: 73px;  
+    position: relative;
+}
+#contact{
+    padding: 15px 25px;
+    border: none;
+    background: linear-gradient(109deg, #ff9b00 0%, #ed1c24 100%);
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+#contact a{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* navbar css end */
+
+/* banner css start  */
+#banner{
+    padding: 90px 0 185px;
+    background: #06091A;
+}
+.txts{
+    color: #fff;
+    font-family: "Space Grotesk", system-ui;
+}
+.txts h1{
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+hr{
+    height: 8px;
+    width: 230px;
+    background-color: #FFC947;
+    border: none;
+    opacity: 1;
+}
+.txts p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+.txts a{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 37px 45px;
+    background: linear-gradient(109deg, #ff9b00 0%, #ed1c24 100%);
+    border-radius: 55px;
+    
+}
+.image img{
+    width: 460px;
+    position: relative;
+}
+#seco{
+    position: absolute;
+}
+.tapes p{
+    position: absolute;
+    padding: 40px 0;
+    background: linear-gradient(14deg, #ff9b00 0%, #ed1c24 100%);
+    color: #060919;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 11.9px;
+    top: 846px;
+    text-align: left;
+}
+#top{
+    transform: rotateZ(4deg);
+}
+#bot{
+    transform: rotateZ(-4deg);
+}
+/* banner css end  */
+
+/* benefit css start  */
+.depitems{
+    padding: 300px 0 200px;
+}
+.depitems img{
+    width: 90px;
+}
+.depitems p{
+    font-family: "Space Grotesk", system-ui;
+    color: #18181B;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 115px;
+    margin-top: 15px;
+    padding-left: 31px;
+    text-align: left;
+}
+.three{
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+/* benefit css end  */
+
+/* laptop css start  */
+#laptop{
+    padding:50px 0 90px;
+    font-family: "Space Grotesk", system-ui;
+}
+.laptop img{
+    width: 509px;
+}
+.side{
+    padding-right: 90px;
+    padding-left: 160px;
+}
+.side h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.side p{
+    color: #464646;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.side h4{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 28px;
+}
+.tick img{
+    width: 75px;
+}
+
+/* laptop css end  */
+
+/* guy css start  */
+#lptp{
+    padding:50px 0 90px;
+    font-family: "Space Grotesk", system-ui;
+}
+.lptp img{
+    width: 550px;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.sid{
+    padding-right: 195px;
+    
+}
+.sid h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.sid p{
+    color: #464646;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.sid a{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 37px 45px;
+    background: linear-gradient(109deg, #ff9b00 0%, #ed1c24 100%);
+    border-radius: 55px;
+    line-height: 110px;
+}
+
+/* guy css end  */
+
+/* soft css start  */
+#soft{
+    background: linear-gradient(90deg, rgba(255, 157, 0, 0.2) 0%, rgba(250, 184, 77, 0) 100%);
+    padding: 100px 0 30px;
+    font-family: "Space Grotesk", system-ui;
+}
+.soft img{
+    width: 550px;
+    margin-left: -20px;
+}
+.syd{
+    padding-left: 200px;
+    
+}
+.syd h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.syd p{
+    color: #464646;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.syd a{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 37px 45px;
+    background: linear-gradient(109deg, #ff9b00 0%, #ed1c24 100%);
+    border-radius: 55px;
+    line-height: 110px;
+}
+
+/* soft css end  */
+
+/* flow css start  */
+#flow{
+    background: #060919;
+    padding:100px 0 70px;
+    font-family: "Space Grotesk", system-ui;
+    color: #fff;
+}
+.flow img{
+    width: 509px;
+}
+.right{
+    padding-right: 90px;
+    padding-left: 160px;
+}
+.right h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.right p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.right h4{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 28px;
+}
+.tick img{
+    width: 75px;
+}
+.ticko img{
+    width: 75px;
+    
+}
+.ticko{
+    justify-content: center;
+}
+.ticki img{
+    width: 75px;
+    
+}
+.ticki{
+    justify-content: end;
+}
+.ribbon marquee{
+    position: absolute;
+    padding: 40px 0;
+    background: -webkit-linear-gradient(0deg, #ff9702 0%, #ffe600 100%);
+    color: #060919;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 11.91px;
+    top: 4300px;
+}
+/* flow css end  */
+
+/* blogs css start  */
+#blogs{
+    padding: 200px 0 90px;
+    font-family: "Space Grotesk", system-ui;
+}
+.initial h1,p{
+    text-align: center;
+}
+.tip h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    padding-top: 40px;
+}
+.tip p{
+    color: #3E4150;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    padding-top: 20px;
+    padding-right: 38px;
+}
+.initial h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 0 95px;
+    line-height: 72px;
+}
+.initial p{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 27px 283px 0;
+    line-height: 35px;
+}
+.tip img{
+    width: 490px;
+}
+.tip{
+    padding-left: 65px;
+    padding-top: 122px;
+}
+.fifth a{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 37px 45px;
+    background: linear-gradient(109deg, #ff9b00 0%, #ed1c24 100%);
+    border-radius: 55px;
+}
+.fifth{
+    text-align: center;
+    margin-top: 116px;
+}
+/* blogs css end  */
+
+/* award css start  */
+.awards img{
+    width: 125px;
+}
+.awards h2,h4,p{
+    font-family: "Space Grotesk", system-ui;
+}
+#awards{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#awards h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 200px;
+}
+.awards h4{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+.awards p{
+    padding-top: 40px;
+    padding-left: 173px;
+    font-size: 25px;
+}
+.awards hr{
+    height: 3px;
+    width: 560px;
+    background-color: #FD0000;
+    border: none;
+}
+/* award css end  */
+
+/* last css start  */
+#last{
+    padding: 60px;
+    background: #060919;
+}
+#last img{
+    width: 200px;
+    padding-bottom: 30px;
+}
+#last p{
+    color: #fff;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 800px;
+    line-height: 35px;
+}
+i{
+    font-size: 20px;
+    color: #ff9702;
+}
+.linkd a{
+    color: #fff;
+    font-family: "Space Grotesk", system-ui;
+    font-size: 25px;
+    padding-top: 30px;
+}
+li{
+    padding: 18px 0;
+}
+.linkd{
+    padding-top: 30px;
+}
+#last hr{
+    height: 2px;
+    color: #FFC947;
+    width: 100%;
+}
+h5{
+    color: #fff;
+    padding-top: 40px;
+    font-family: "Space Grotesk", system-ui;
+    font-weight: 400;
+    text-align: center;
+}
+/* last css end  */
